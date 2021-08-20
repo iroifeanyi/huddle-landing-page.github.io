@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-box{
+    width: 1200px;
+    margin-bottom: 100px;
+}
+img{
+    width: 100%;
+}
+.screen{
+    width: 60%;
+}
+.margin{
+    margin-top: 20px;
+}
+.last-box{
+    margin-left: 760px;
+    margin-top: -430px;
+}
+.big-button{
+    width: 150px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 20px;
+    border: none;
+}
+.butt-text{
+    color: hsl(257, 40%, 49%);
+}
+.color{
+    color: white;
+    width: 95%;
+}
+.bg-color{
+    background-color: white;
+}
+.header-text{
+    font-size: 35px;
+}
+.text{
+    font-size: 15px;
+}
+@media screen and (max-width: 1130px){
+    .last-box{
+        margin-left: 710px;
+    }
+}
+@media screen and (max-width: 1058px){
+    .last-box{
+        margin-left: 660px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .last-box{
+        margin-left: 620px;
+    }
+}
+@media screen and (max-width: 949px){
+    .last-box{
+        margin-left: 590px;
+    }
+}
+@media screen and (max-width: 890px){
+    .last-box{
+        margin-left: 550px;
+    }
+}
+@media screen and (max-width: 822px){
+
+    .last-box{
+        margin-left: 510px;
+    }
+}
+@media screen and (max-width: 813px){
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+    .screen{
+        width: 100%;
+    }
+    .last-box{
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .color{
+        width: 95%;
+        margin-top: 30px;
+    }
+    .main-box{
+        width: 400px;
+        margin-bottom: 0px;
+    }
+    .sec-text{
+        font-size: 19px;
+    }
+    .butt-text{
+        font-size: 15px;
+    }
+    .big-button{
+        width: 200px;
+        padding: 12px 0px 12px 0px;
+        border-radius: 25px;
+    }
+    .box{
+        height: 130vh;
+    }
+}
